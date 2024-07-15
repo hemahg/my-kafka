@@ -7,8 +7,8 @@ metadata:
     - nodejs
   annotations: 
     'backstage.io/kubernetes-id': 'my-kafka'
-    backstage.io/kubernetes-namespace: kafka
+    'backstage.io/kubernetes-namespace': 'kafka'
 spec: 
   type: service
   lifecycle: production
-  owner: user:default/guest
+  owner: user/guest
